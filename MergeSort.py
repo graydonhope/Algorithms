@@ -14,7 +14,6 @@ class MergeSort:
             # Merge the two lists
             left_pointer = 0
             right_pointer = 0
-            index = 0
 
             for i in range(0, 2 * max(len(left), len(right))):
                 if left_pointer < len(left) and right_pointer < len(right):
